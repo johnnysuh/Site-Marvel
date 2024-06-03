@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Trabuchet MS', 'Lucida Sans Unicode',
+    'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hcont{
+    display: flex;
+    flex-direction: row;
+}
+
+header{
+    background-color: rgb(27, 33, 166);
+    color: #eee;
+    padding: 5px;
+    text-align: center;
+    border-bottom: 3px solid rgb(181, 22, 22);
+}
+
+h1{
+    color: #eee;
+    text-shadow: 1px 2px rgb(19, 12, 105);
+    padding-top: 15px;
+    padding-left: 130px;
+    font-size: 40px;
+}
+
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 50px;
+}
+
+.products-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.car{
+    display: block;
+    width: 5px;
+    color: #fff;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: none;
+    background-color: transparent;
+    margin-left: 250px;
+}
+
+#log{
+    display: block;
+    width: 25%;
+    color: #fff;
+    padding: 0px;
+    border: none;
+    font-size: 20px;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-left: 0%;
+}
+
+#clog{
+    display: block;
+    width: 5%;
+    color: #fff;
+    padding: 0px;
+    border: none;
+    font-size: 15px;
+    text-decoration: underline;
+    background-color: transparent;
+    margin-left: 2%;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+.product-image{
+    height: 300px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(27, 33, 166);
+    border-radius: 8px;
+}
+
+#img-0{
+    background-image: url('../imagens/img0.jpg');
+}
+
+#img-1{
+    background-image: url('../imagens/img1.jpg');
+}
+
+#img-2{
+    background-image: url('../imagens/img2.jpg');
+}
+
+#img-3{
+    background-image: url('../imagens/img3.jpg');
+}
+
+#img-4{
+    background-image: url('../imagens/img4.jpg');
+}
+
+#img-5{
+    background-image: url('../imagens/img5.jpg');
+}
